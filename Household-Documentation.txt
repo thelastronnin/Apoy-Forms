@@ -1,0 +1,30 @@
+-- Logic and reason why ganun yung ginawa ko --
+
+NOTE: taglish idk pa kung papano tamang approach :D
+
+Based sa na research ko bawal mo isetState ang isang state sa loob ng loop na normal na approach. 
+mag reresulta yun sa tinatawag na mutation ang behavior nya ganito diba:
+
+for(.....){
+    this.setState({ ...... })
+}
+
+-> Bawal to ang mangyayare masesetstate lang sya sa pinakang huling iteration nung loop so kung mag lloop ka ng 
+1-5 ang massetState lang yung 5
+
+so ang ginawa ko nagdeclare ako ng string which is mag sserve una as count (stringForm2Count)
+
+for(.....){
+    this.setState({.....})
+}
+
+-> Which result nya as a string is for example mag lloop ka from 1-5 ang output string is
+1,2,3,4,5 the reason is para madivide sya maayos para maging array tapos dito ko immap yung repetion ng from
+
+ -- parang ang simple lang pero haha 1day ko ginawa halos to AHAHA --
+
+lastly ayun na yung immap ko as repetition it's a simple workaround idon'tknow kung pasado to sa taste nyo pero
+eto yung naisip kong simple solution na madali lang yung approach
+
+Nag set ako ng timeout para maget nya lang pagtapos magtype yung user para pwede rin ma adjust ayon sa bilis ng 
+response na gusto nyo

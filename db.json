@@ -1,0 +1,33 @@
+{
+  "household": [
+    {
+      "id": 1,
+      "address": "Address 1",
+      "total_persons": "1",
+      "clean_water": false,
+      "monthly_income": "18000",
+      "informal_settler": false
+    },
+    {
+      "id": 4130,
+      "address": "Address 2",
+      "total_persons": "2",
+      "clean_water": true,
+      "monthly_income": "2",
+      "informal_settler": true
+    }
+  ],
+  "person_household": [
+    {
+      "id": 1,
+      "first_name": "Aldrin",
+      "middle_name": "Ronnin",
+      "last_name": "Salonga",
+      "age": "1",
+      "gender": "Male",
+      "studying": false,
+      "working": false,
+      "bmi": 20
+    }
+  ]
+}
